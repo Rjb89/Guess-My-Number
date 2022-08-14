@@ -1,11 +1,6 @@
 'use strict';
-// console.log(document.querySelector('.message').textContent);
+// this a javascript only challenge from a javaScript course in udemy platform  only pc version and not a clean code  must be implemnt a funtion for display a the messege to make it  clean
 
-// document.querySelector('.message').textContent = ` Correct Number!`;
-
-// document.querySelector('h1').textContent = 'geuss the number!';
-
-// document.querySelector('.guess').value = 19;
 let number = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let hightscore = 0;
@@ -39,7 +34,6 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   }
 });
-
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   document.querySelector('body').style.backgroundColor = '#222';
