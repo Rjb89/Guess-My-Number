@@ -11,13 +11,13 @@
     <header>
       <h1>Guess The Number!</h1>
       <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Try again!</button>
+      <button onclick="tryAgain()" class="btn again">Try again!</button>
       <div class="number">?</div>
     </header>
     <main>
       <section class="left">
         <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
+        <button onclick="getNumber()" class="btn check" id="submit">Check!</button>
       </section>
       <section class="right">
         <p class="message">Start guessing...</p>
@@ -27,6 +27,6 @@
         </p>
       </section>
     </main>
-    <script src="script.js"></script>
+   <script src="main.js"></script>
   </body>
 </html>
